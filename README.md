@@ -1,6 +1,6 @@
 # Spatio-Temporal Pyramidal Deep Learning in Emotion Recognition 
 
-EmoP3D is a pyramidal neural network for emotion recognition, based on biological pyramidal neurons developed in [[1]](#1);
+EmoP3D [[1]](#1) is a pyramidal neural network for emotion recognition, based on biological pyramidal neurons developed in [[2]](#2);
 
 ## Datasets & Results
 
@@ -97,18 +97,21 @@ Code uses *Sparse Softmax Cross Entropy* as loss function, it doesn't need *One 
 
 
 ## References
+<a name="1">[1]</a> Di Nardo E., Petrosino A., Ullah I. (2019) EmoP3D: A Brain Like Pyramidal Deep Neural Network for Emotion Recognition. In: Leal-Taixé L., Roth S. (eds) Computer Vision – ECCV 2018 Workshops. ECCV 2018. Lecture Notes in Computer Science, vol 11131. Springer, Cham.
 
-<a name="1">[1]</a> Ullah, Ihsan, and Alfredo Petrosino. "Spatiotemporal features learning with 3DPyraNet." International Conference on Advanced Concepts for Intelligent Vision Systems. Springer, Cham, 2016.
 
-<a name="2">[2]</a> Martin, Olivier, et al. "The enterface’05 audio-visual emotion database." Data Engineering Workshops, 2006. Proceedings. 22nd International Conference on. IEEE, 2006.
 
-<a name="3">[3]</a> Morency, Louis-Philippe, Rada Mihalcea, and Payal Doshi. "Towards multimodal sentiment analysis: Harvesting opinions from the web." Proceedings of the 13th international conference on multimodal interfaces. ACM, 2011.
+<a name="2">[2]</a> Ullah, Ihsan, and Alfredo Petrosino. "Spatiotemporal features learning with 3DPyraNet." International Conference on Advanced Concepts for Intelligent Vision Systems. Springer, Cham, 2016.
 
-<a name="4">[4]</a> Noroozi, F., Marjanovic, M., Njegus, A., Escalera, S., and Anbarjafari, G. (2017). Audio-visual emotion recognition in video clips. IEEE Transactions on Affective Computing.
+<a name="3">[3]</a> Martin, Olivier, et al. "The enterface’05 audio-visual emotion database." Data Engineering Workshops, 2006. Proceedings. 22nd International Conference on. IEEE, 2006.
 
-<a name="5">[5]</a> Wang, Y., Guan, L., and Venetsanopoulos, A. N. (2012). Kernel cross-modal factor analysis for information fusion with application to bimodal emotion recognition. IEEE Transactions on Multimedia, 14(3):597–607
+<a name="4">[4]</a> Morency, Louis-Philippe, Rada Mihalcea, and Payal Doshi. "Towards multimodal sentiment analysis: Harvesting opinions from the web." Proceedings of the 13th international conference on multimodal interfaces. ACM, 2011.
 
-<a name="6">[6]</a> Chen, M., Wang, S., Liang, P. P., Baltrušaitis, T., Zadeh, A., and Morency, L.-P. (2017). Multimodal sentiment analysis with word-level fusion and reinforcement learning. 
+<a name="5">[5]</a> Noroozi, F., Marjanovic, M., Njegus, A., Escalera, S., and Anbarjafari, G. (2017). Audio-visual emotion recognition in video clips. IEEE Transactions on Affective Computing.
+
+<a name="6">[6]</a> Wang, Y., Guan, L., and Venetsanopoulos, A. N. (2012). Kernel cross-modal factor analysis for information fusion with application to bimodal emotion recognition. IEEE Transactions on Multimedia, 14(3):597–607
+
+<a name="7">[7]</a> Chen, M., Wang, S., Liang, P. P., Baltrušaitis, T., Zadeh, A., and Morency, L.-P. (2017). Multimodal sentiment analysis with word-level fusion and reinforcement learning. 
 
 <a name="7">[7]</a> Zadeh, A., Liang, P. P., Poria, S., Vij, P., Cambria, E., and Morency, L.-P. (2018). Multiattention recurrent network for human communication comprehension. arXiv preprint arXiv:1802.00923.
 
