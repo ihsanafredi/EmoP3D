@@ -4,7 +4,7 @@ EmoP3D [[1]](#1) is a pyramidal neural network for emotion recognition, based on
 
 ## Datasets & Results
 
-Code is tested on eNTERFACE '05 [[2]](#2) and ICT Youtube [[3]](#3) datasets;
+Code is tested on eNTERFACE '05 [[3]](#3) and ICT Youtube [[5]](#4) datasets;
 
 *   Faces are extracted using [FaceNet](https://github.com/davidsandberg/facenet).
 *   Number of feature maps used is 3;
@@ -23,11 +23,11 @@ Code is tested on eNTERFACE '05 [[2]](#2) and ICT Youtube [[3]](#3) datasets;
 
 |      Model     | eNTERFACE | ICT Youtube |
 |:--------------:|:---------:|:-----------:|
-| AVER-Geometric [[4]](#4) |   41.59%  |      -      |
-|      KCMFA [[5]](#5)     |    58%    |      -      |
-|    AVER-CNN [[4]](#4)    |    62%    |      -      |
-| LSTM(A) Binary [[6]](#6) |     -     |    52.3%    |
-|      MARN [[7]](#7)     |     -     |    54.2%    |
+| AVER-Geometric [[5]](#5) |   41.59%  |      -      |
+|      KCMFA [[6]](#6)     |    58%    |      -      |
+|    AVER-CNN [[5]](#5)    |    62%    |      -      |
+| LSTM(A) Binary [[7]](#7) |     -     |    52.3%    |
+|      MARN [[8]](#8)     |     -     |    54.2%    |
 |  **EmoP3D (Ours)** |   71.47%  |     75%     |
 
 ## Usage
@@ -97,9 +97,7 @@ Code uses *Sparse Softmax Cross Entropy* as loss function, it doesn't need *One 
 
 
 ## References
-<a name="1">[1]</a> Di Nardo E., Petrosino A., Ullah I. (2019) EmoP3D: A Brain Like Pyramidal Deep Neural Network for Emotion Recognition. In: Leal-Taixé L., Roth S. (eds) Computer Vision – ECCV 2018 Workshops. ECCV 2018. Lecture Notes in Computer Science, vol 11131. Springer, Cham.
-
-
+<a name="1">[1]</a> Di Nardo E., Petrosino A., Ullah I. (2018) EmoP3D: A Brain Like Pyramidal Deep Neural Network for Emotion Recognition. In: Leal-Taixé L., Roth S. (eds) Computer Vision – ECCV 2018 Workshops. ECCV 2018. Lecture Notes in Computer Science, vol 11131. Springer, Cham.
 
 <a name="2">[2]</a> Ullah, Ihsan, and Alfredo Petrosino. "Spatiotemporal features learning with 3DPyraNet." International Conference on Advanced Concepts for Intelligent Vision Systems. Springer, Cham, 2016.
 
@@ -113,5 +111,5 @@ Code uses *Sparse Softmax Cross Entropy* as loss function, it doesn't need *One 
 
 <a name="7">[7]</a> Chen, M., Wang, S., Liang, P. P., Baltrušaitis, T., Zadeh, A., and Morency, L.-P. (2017). Multimodal sentiment analysis with word-level fusion and reinforcement learning. 
 
-<a name="7">[7]</a> Zadeh, A., Liang, P. P., Poria, S., Vij, P., Cambria, E., and Morency, L.-P. (2018). Multiattention recurrent network for human communication comprehension. arXiv preprint arXiv:1802.00923.
+<a name="8">[8]</a> Zadeh, A., Liang, P. P., Poria, S., Vij, P., Cambria, E., and Morency, L.-P. (2018). Multiattention recurrent network for human communication comprehension. arXiv preprint arXiv:1802.00923.
 
